@@ -11,6 +11,8 @@ name_hash.each do |name, hash|
   else 
     new_array <<  name_hash[2]
   end
-  
+  new_array.each do |key, value|
+  end
 end
+return key
 end
